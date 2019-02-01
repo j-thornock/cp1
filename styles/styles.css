@@ -1,0 +1,119 @@
+body {
+  font-family: quatro, sans-serif;
+  font-weight: 700;
+}
+
+.economica {
+  font-family: quatro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+  background-color: transparent !important;
+}
+
+.navbar-light a {
+  color: black !important;
+}
+
+.navbar-light a:hover {
+  color: #494A4A !important;
+}
+
+.navbar-brand {
+  font-size: 1.8em;
+}
+
+/* HOME PAGE */
+body {
+  background-size: 100%;
+  background-image: url(/images/bread4.jpg);
+  background-repeat: no-repeat;
+}
+
+.home {
+  top: 13em;
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.opaque {
+  padding: 1em;
+  opacity: .9;
+  margin-top: 2em;
+  position: relative;
+  padding: 1em;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.opaque h1 {
+  font-weight: 700;
+  text-align: center;
+  font-style: normal;
+}
+
+/*cakes cakes cakes*/
+.whiteBox {
+  width: 80%;
+  background-color: white;
+  height: 70vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 3px;
+  padding: 1em;
+}
+
+.whiteBox h1 {
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+}
+
+p, #notbold {
+  font-weight: 200;
+}
+
+.opaque p {
+  font-weight: 700;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.footer a {
+  color: black;
+}
+
+@media only screen and (max-width: 700px) and (min-width: 400px) {
+  body {
+    background-size: 100%;
+    background-image: url(/images/breadsmall.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .whiteBox {
+    height: 100%;
+  }
+}
